@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+.header{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+    cursor: pointer;
+    
+}
+
+.top-nav .header{
+    position: absolute;
+    z-index: 1;
+    /* margin-top: -0.1px; */
+}
+
+
+
+.header  li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.content{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 170px ;
+    font-size: 25px;
+    color: red;
+}
+
+.box{
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    height: 3px;
+    margin-top: 140px;
+}
+
+.size{
+    position: absolute;
+    background-color: aliceblue;
+    width: 290px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 920px;
+    border-radius: 20px;
+}
+
+.mm{
+    position: absolute;
+    background-color: black;
+    width: 160px;
+    height: 30px;
+    margin-top: 87px;
+    margin-left: 1180px;
+    border-radius: 20px;
+}
+
+.kk{
+    position: absolute;
+    margin-left: 940px;
+    font-size: xx-small;
+    margin-top: 40px;
+    
+}
+
+.kk input{
+    background: none;
+    border:transparent;
+
+    
+
+    
+}
+
+.all{
+    position: absolute;
+    margin-left: 1060px;
+    font-size: xx-small;
+    margin-top: 40px;
+}
+
+.get{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 1210px;
+    margin-top: 95px;
+    font-size: x-small;
+}
+
+.get button{
+    font-size: 17px;
+    color: white;
+    background: black;
+    border-radius: 12px;
+    width: 120px;
+    height: 30px;
+    
+}
+
+.get button:hover{
+    background: none;
+    color: black;
+
+}
+
+
+.class{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 110px;
+    margin-top: 270px;
+    font-size: 13px;
+    color: black;
+}
+    
+.yy{
+    position: absolute;
+    color: black;
+    margin-left: 110px;
+    margin-top: 300px;
+    font-size: x-small;
+}
+
+.box1{
+    position: absolute;
+    background-color: black;
+    width: 171px;
+    height: 30px;
+    margin-top: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.box2{
+    position: absolute;
+    background-color: black;
+    width: 115px;
+    height: 30px;
+    margin-top: 400px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+
+.tt{
+    position: absolute;
+    font-size: 10px;
+    margin-top: 408px;
+    z-index: 1;
+    color: aqua;
+    margin-left: 105px;
+}
+
+.gg{
+    position: absolute;
+    font-size: 10px;
+    margin-top: 408px;
+    z-index: 1;
+    color: aqua;
+    margin-left: 315px;
+}
+
+.ww{
+    position: absolute;
+    color: red;
+    margin-top: 357px;
+    margin-left: 185px;
+    font-weight: bolder;
+}
+
+.ab{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.to{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 550px;
+
+}
+
+.mod{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 600px;
+    font-size: 8px;
+}
+
+.front{
+    position: absolute;
+    margin-top: 400px;
+    font-size: 11px;
+    margin-left: 1005px;
+    text-align: center;
+}
+
+.cont{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 110px;
+    font-size: 10px;
+}
+
+.great{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 110px;
+    font-size: 11px;
+}
+.csc{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 640px;
+    font-size: 11px;
+}
+
+.image1 img{
+    position: absolute;
+    margin-top: 426px;
+    width: 60px;
+    margin-left: 170px;
+}
+
+.image2{
+    position: absolute;
+    margin-top: 320px;
+    size: 10px;
+    margin-left: 850px;
+}
+
+.image3{
+    position: absolute;
+}
+
+
+.button1 button{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 120px;
+    margin-top: 650px;
+    margin-left: 550px;
+}
+
+.button2 button{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 120px;
+    margin-top: 650px;
+    margin-left: 770px;
+}
+
+
+
+
+
+/* footer */ 
+
+
+
+.box3{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    margin-top: 470px;
+
+}
+
+
+ 
+.ff{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 110px;
+    font-size: 15px;
+
+}
+
+.evone{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 580px;
+    font-size: 15px;
+
+
+}
+
+.ll{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 1080px;
+    font-size: 15px;
+    
+
+}
+
+.rr{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 110px;
+    color: aliceblue;
+}
+
+.pp{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1080px;
+    color: aliceblue;
+
+}
+/* .icon1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 600px;
+    
+}
+.icon2{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 640px;
+
+}
+
+.icon3{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 680px;
+
+} */
+
+.lexin{
+    padding-top: 300px;
+}
+
+.our{
+    position: absolute;
+    margin-left: 40px;
+}
+
+.our h1{
+    margin-left:500px;
+    margin-top: 150px;
+}
+
+.our h2{
+    margin-left: 425px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.our h3{
+    margin-left: 480px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.ship{
+    position: absolute;
+    margin-left: 80px;
+}
+.ship h1{
+    margin-left: 20px;
+    margin-top: 315px;
+    font-size: 17px;
+}
+
+.ship h2{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 17px;
+
+}
+
+.mag{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+
+.on{
+    position: absolute;
+    margin-left: -35px;
+}
+.on h1{
+    margin-top: 310px;
+    margin-left: 580px;
+    font-size: 17px;
+}
+.on h2{
+    margin-top: 50px;
+    margin-left: 580px;
+    font-size: 17px;
+}
+
+.mag1{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 530px;
+}
+
+.mag2{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 900px;
+}
+.dd{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1110px;
+    font-size: 10px;
+}
+
+
+
+.ph button{
+    font-size: 17px;
+    color: white;
+    background: black;
+    border-radius: 12px;
+    width: 120px;
+    height: 30px;
+    margin-left: 580px;
+    margin-top: 580px;
+    
+}
+
+.ph button:hover{
+    background: none;
+    color: black;
+
+}
+
+.wavi{
+    margin-top: -700px;
+}
+
+
+.more{
+    position: absolute;
+}
+
+.more h1{
+    font-size: 23px;
+    margin-top: 160px;
+    margin-left: 530px;
+    text-align: center;
+}
+
+.more h2{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 600px;
+
+}
+
+.email{
+    position: absolute;
+}
+.email1{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 120px;
+}
+.email2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 600px;
+}
+
+.email3{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 1100px;
+}
+
+.by{
+    position: absolute;
+}
+.by h1{
+    
+    margin-top: 400px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+.by h2{
+    
+    margin-top: -40px;
+    margin-left: 600px;
+    font-size: 20px;
+}
+.by h3{
+    
+    margin-top: -40px;
+    margin-left: 1110px;
+    font-size: 20px;
+}
+
+.by h4{
+    
+    margin-top: 42px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+
+
+.by h5{
+    
+    margin-top: -45px;
+    margin-left: 550px;
+    font-size: 20px;
+}
+
+
+.by h6{
+    
+    margin-top: -38px;
+    margin-left: 1100px;
+    font-size: 20px;
+}
+
+.lore{
+    position: absolute;
+}
+
+.lore h1{
+    margin-top: 500px;
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.lore h2{
+    margin-top: -90px;
+    margin-left: 570px;
+    font-size: 17px;
+}
+.lore h3{
+    margin-top: -90px;
+    margin-left: 1090px;
+    font-size: 17px;
+}
+.lore h4{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 17px;
+}
+
+.lore h5{
+    margin-top: -35px;
+    margin-left: 1150px;
+    font-size: 17px;
+}
+.tet{
+    padding-top: 200px;
+}
+
+.all-images{
+    margin-left: 1000px;
+}
+.circle1 img{
+    position: absolute;
+    width: 400px;
+    z-index: -1;
+}
+
+.cir img{
+    width: 560px;
+    position: absolute;
+    margin-left: -350px;
+}
+
+.with-kids img{
+    width: 300px;
+    height: 300px;
+    margin-top: 58px;
+}
+
+.without-kids img{
+    width: 250px;
+    margin-left: -270px;
+    height: 350px;
+    margin-top: 90px;
+}
+
+.icons{
+    margin-left: 600px;
+    display: flex;
+    gap: 10px;
+    transform: translateY(570px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
